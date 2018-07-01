@@ -1,0 +1,60 @@
+.ws_header {
+  position: relative;
+  margin-bottom: 1.5em;
+
+  .yzdw,
+  .title,
+  .sub_title {
+    text-align: center;
+  }
+
+  .yzdw {
+    position: absolute;
+    top: -27px;
+    width: 100%;
+  }
+
+  .title {
+    margin: 54px 0;
+  }
+
+  .sub_title {
+    position: absolute;
+    top: 54px;
+    width: 100%;
+  }
+
+  .whh {
+    text-align: right;
+  }
+}
+
+.ws_content {
+  .row {
+    display: flex;
+    align-items: flex-end;
+    height: 48px;
+    overflow: hidden;
+
+    & > div {
+      display: inline-block;
+      border-bottom: 1px solid #333;
+      input,
+      textArea {
+        font-family: SimSun, NSimSun;
+      }
+
+      &.flex_1 {
+        flex: 1;
+      }
+    }
+  }
+}
+
+.text_indent_1 {
+  text-indent: 1em;
+}
+
+.text_indent_2 {
+  text-indent: 2em;
+}
